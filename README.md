@@ -13,3 +13,5 @@ As we talk about SQLAlchemy, do make sure to install SQLAlchemy. To do so, just 
 Additionaly it is benefitial for you to have a sqlite-Viewer, as we will work with a sqlite database.
 
 Feel free to use any development environment you want. I will use *Visual Studio Code* as my editor. If you want to follow my example, make sure to install the extension SQLite, which allows you to query sqlite databases.
+
+You can find my demo code [here](https://github.com/DonkeyCo/eportfolio-sqlalchemy/tree/blueprint)
