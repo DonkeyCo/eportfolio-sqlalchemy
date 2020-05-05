@@ -26,13 +26,12 @@ car_data = [
 ]
 
 def fill(session):
-    i = 0
     for emp in emp_data:
         employee = Employee(id=emp[0], name=emp[1], surname=emp[2], salary=emp[3])
         if emp[3] > 3000:
+            i = random.randint(0, 6)
             car = Car(manufacturer=car_data[i][0], model=car_data[i][1])
             employee.car = car
             session.add(car)
-            i += 1
         session.add(employee)
     session.commit()
